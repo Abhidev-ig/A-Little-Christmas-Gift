@@ -14,7 +14,7 @@ const Stage2Welcome = ({ onNext }) => {
 
                 <div className="z-10 relative w-full flex flex-col items-center">
                     <motion.img
-                        src="/assets/snowman.png"
+                        src="/A-Little-Christmas-Gift/assets/snowman.png"
                         alt="Cute Snowman"
                         className="w-48 h-48 object-contain drop-shadow-md"
                         animate={{ y: [0, -10, 0], rotate: [0, 2, -2, 0] }}

@@ -21,7 +21,7 @@ const Stage4Letter = ({ onEnd }) => {
             >
                 {/* Floating Santa Animation */}
                 <motion.img
-                    src="/assets/santa.png"
+                    src="/A-Little-Christmas-Gift/assets/santa.png"
                     alt="Cute Santa Sleigh"
                     className="w-64 h-auto mx-auto drop-shadow-2xl"
                     animate={{ y: [0, -15, 0] }}
@@ -52,7 +52,7 @@ const Stage4Letter = ({ onEnd }) => {
                     >
                         {/* Winter Card Background Image */}
                         <div className="absolute inset-0 z-0">
-                            <img src="/assets/winter_bg.png" alt="Winter Background" className="w-full h-full object-cover opacity-90" />
+                            <img src="/A-Little-Christmas-Gift/assets/winter_bg.png" alt="Winter Background" className="w-full h-full object-cover opacity-90" />
                             <div className="absolute inset-0 bg-white/70 backdrop-blur-[1px]"></div> {/* Overlay for readability */}
                         </div>
 

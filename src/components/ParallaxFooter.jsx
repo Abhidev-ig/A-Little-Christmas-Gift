@@ -30,7 +30,7 @@ const ParallaxFooter = () => {
                 animate={{ x: mtnX }}
                 transition={{ type: "spring", damping: 100 }}
             >
-                <img src="/assets/mountains.png" alt="Mountains" className="w-full h-full object-cover object-bottom opacity-60" />
+                <img src="/A-Little-Christmas-Gift/assets/mountains.png" alt="Mountains" className="w-full h-full object-cover object-bottom opacity-60" />
             </motion.div>
 
             {/* Layer 2: Mid Forest (Moves Medium) */}
@@ -39,7 +39,7 @@ const ParallaxFooter = () => {
                 animate={{ x: forestX }}
                 transition={{ type: "spring", damping: 50 }}
             >
-                <img src="/assets/forest.png" alt="Forest" className="w-full h-full object-cover object-bottom" />
+                <img src="/A-Little-Christmas-Gift/assets/forest.png" alt="Forest" className="w-full h-full object-cover object-bottom" />
             </motion.div>
 
             {/* Layer 3: Santa (Flies Across) */}
@@ -49,7 +49,7 @@ const ParallaxFooter = () => {
                 animate={{ x: "100vw" }}
                 transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
             >
-                <img src="/assets/santa_silhouette.png" alt="Santa" className="w-full drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+                <img src="/A-Little-Christmas-Gift/assets/santa_silhouette.png" alt="Santa" className="w-full drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
             </motion.div>
 
             {/* Vignette Overlay */}
