@@ -1,16 +1,56 @@
-# React + Vite
+# 🎄 A Little Christmas Gift
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A magical, interactive Christmas greeting card built with React, Framer Motion, and Tailwind CSS.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=github)](https://abhidev-ig.github.io/A-Little-Christmas-Gift/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 👑 Royal Red Theme
+*   **Immersive Design**: A rich **Crimson Red Gradient** background that feels premium and festive.
+*   **Gold Accents**: Elegant corner flourishes (Holly & Ornaments) frame the experience without clutter.
+*   **Glassmorphism**: Modern frosted glass cards that maintain readability while looking stunning.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ❄️ Interactive Elements
+*   **Continuous Snowfall**: 150+ snowflakes falling endlessly with realistic depth and movement.
+*   **Sparkle Cursor**: A magical golden trail follows your mouse cursor.
+*   **Interactive Unboxing**: Tap the gift box to reveal a cute snowman, then flip polaroid cards to reveal a secret message.
 
-## Expanding the ESLint configuration
+### 💌 The Letter
+*   **Scroll-Triggered End**: The experience naturally concludes when the recipient finishes reading the letter.
+*   **High Contrast**: Designed for perfect readability with bold text on white cards.
+*   **Heartwarming Audio**: Soft, ambient festive music plays in the background (volume optimized).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+*   **Framework**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+*   **Icons**: [Lucide React](https://lucide.dev/)
+
+## 🚀 How to Run Locally
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Abhidev-ig/A-Little-Christmas-Gift.git
+    cd A-Little-Christmas-Gift
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open `http://localhost:5173` in your browser.
+
+## 💝 Customization
+
+*   **To change the letter text**: Edit `src/components/Stage4Letter.jsx`.
+*   **To change the card words**: Edit `src/components/Stage3Reveal.jsx`.
+
+---
+*Made with ❤️ for Christmas 2025*
