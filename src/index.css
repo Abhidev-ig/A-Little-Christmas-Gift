@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Royal Red Gradient */
+    background: radial-gradient(circle at center, #991b1b 0%, #7f1d1d 60%, #450a0a 100%);
+    color: #fff1f2;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Glassmorphism Card Style (Red Theme) */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  /* Very subtle white tint */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(250, 204, 21, 0.3);
+  /* Gold border */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced Snow Animation */
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(110vh) translateX(20px);
+    opacity: 0.2;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -20px;
+  color: white;
+  animation: fall linear infinite;
+  filter: drop-shadow(0 0 2px white);
+}
